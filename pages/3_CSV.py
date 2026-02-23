@@ -18,6 +18,11 @@ st.write("**Datos desde archivo local:**")
 # ESTUDIANTE: Escribe tu código a continuación para el CSV local
 
 
+
+
+
+
+
 st.write("**Datos desde internet:**")
 # ESTUDIANTE: Escribe tu código a continuación para el CSV de internet
 
