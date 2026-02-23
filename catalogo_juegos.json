@@ -1,0 +1,27 @@
+[
+    {
+        "Titulo": "The Legend of Zelda: Breath of the Wild",
+        "Año": 2017,
+        "Consola": "Nintendo Switch"
+    },
+    {
+        "Titulo": "God of War",
+        "Año": 2018,
+        "Consola": "PlayStation 4"
+    },
+    {
+        "Titulo": "Halo 3",
+        "Año": 2007,
+        "Consola": "Xbox 360"
+    },
+    {
+        "Titulo": "Red Dead Redemption 2",
+        "Año": 2018,
+        "Consola": "PlayStation 4"
+    },
+    {
+        "Titulo": "Super Mario Odyssey",
+        "Año": 2017,
+        "Consola": "Nintendo Switch"
+    }
+]
