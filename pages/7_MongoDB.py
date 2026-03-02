@@ -20,4 +20,25 @@ st.markdown("Si no tienes la conexión real, escribe tu código usando `st.code(
 # ESTUDIANTE: Escribe tu código (o tu st.code teórico) a continuación
 
 
+codigo = """
 
+# Conexión al clúster 
+
+MONGO_URI = "mongodb+srv://usuario:password@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority"
+
+# Crear cliente MongoDB
+client = MongoClient(MONGO_URI)
+
+# Seleccionar base de datos y colección
+db = client["Veterinaria"]
+collection = db["mascotas"]
+
+# Extraer documentos
+documentos = list(collection.find())
+
+# Convertir a DataFrame
+df_mongo = pd.DataFrame(documentos)
+
+"""
+
+st.code(codigo, language="python")
